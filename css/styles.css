@@ -20,7 +20,7 @@
 }
 .site-nav.link:hover,
 .site-nav.link:focus{
-    color: #2196F3;
+    color:#2196F3;
 
 }
 .clients > .section-title{
@@ -28,8 +28,9 @@
 }
 
 .section-title{
-    color:#212121
+    color:#212121;
 }
 .section-text{
     color:#757575;
+        
 }

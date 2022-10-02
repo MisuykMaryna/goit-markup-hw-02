@@ -1,0 +1,35 @@
+/*color #212121*/
+/*color #FFFFFF*/
+/*color #757575*/
+/*color #2196F3*/
+/* color fon #2F303A */
+.list{
+    list-style: none;
+}
+.body{
+    color:#212121
+
+}
+.logo{
+    color:#000000;
+}
+
+/* .site-nav */
+.site-nav.link{
+    color:#212121;
+}
+.site-nav.link:hover,
+.site-nav.link:focus{
+    color: #2196F3;
+
+}
+.clients > .section-title{
+    color:#FFFFFF;
+}
+
+.section-title{
+    color:#212121
+}
+.section-text{
+    color:#757575;
+}

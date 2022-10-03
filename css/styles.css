@@ -3,34 +3,113 @@
 /*color #757575*/
 /*color #2196F3*/
 /* color fon #2F303A */
-.list{
-    list-style: none;
+:root{
+    --primary-text-color:#757575;
+    --title-text-color:#000000;
+    --accent-color:#2196F3;
+    --color-caption:#FFFFFF;
+    --color-fon:#2F303A;
+    
 }
+
+ul{
+    list-style:none;
+}
+    .link{
+    text-decoration:none;
+}
+
 .body{
-    color:#212121
-
+    color:var(--title-text-color);
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: ;
 }
-.logo{
-    color:#000000;
-}
 
-/* .site-nav */
-.site-nav.link{
+.logo-link {
+color:var(--accent-color);
+}
+.header-logo-span{
+    color:var(--title-text-color);
+}
+.current-page {
+    color:var(--accent-color);
+}
+.current-page:hover {
     color:#212121;
 }
-.site-nav.link:hover,
-.site-nav.link:focus{
-    color:#2196F3;
-
-}
-.clients > .section-title{
-    color:#FFFFFF;
+    .link {
+color: #212121;
+    }
+.link:hover {
+    color: var(--accent-color);
 }
 
+/* main section1*/
+.section-fon {
+    background-color:var(--color-fon);
+}
+.section-caption {
+    color:var(--color-caption);
+}
+.primary-button {
+    color:var(--color-caption);
+    background-color:var(--accent-color); 
+    border: 0;   
+}
+.primary-button:hover {
+color:var(--accent-color);
+background-color:var(--color-caption);
+}
+.five-button:focus {
+    color: var(--accent-color);
+        background-color: var(--color-caption);
+    }
+.five-button {
+color:#212121;
+background-color:#F5F4FA;
+border: 0;
+}
+.five-button:hover {
+    color:var(--color-caption);
+    background-color:var(--accent-color);
+    }
+.five-button:focus {
+    color:var(--accent-color);
+    background-color:var(--color-caption);
+    }
+.primary-button:active {
+    color: var(--color-caption);
+        background-color: var(--accent-color);
+}
+/* section2,3 */
 .section-title{
     color:#212121;
+    text-transform:
+
+
 }
 .section-text{
-    color:#757575;
-        
+    color:var(--primary-text-color);
+    text-transform:
 }
+.section {
+    background-color:#F5F5F5;
+}
+.section-portrait {
+    background-color:#F5F4FA;
+}
+/* footer */
+.footer{
+    background-color:var(--color-fon);
+}
+.link-logo {
+    color:var(--accent-color);
+}
+.footer-span {
+    color: var(--color-caption);
+}
+.footer-link {
+    color:rgba(255, 255, 255, 06);
+    }   
+
